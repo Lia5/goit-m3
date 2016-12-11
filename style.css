@@ -50,23 +50,20 @@ h1 {
   color: rgb(92, 92, 92);
 }
 
-.navigation li:active {
+.navigation a:hover {
   background: rgb(69, 69, 69);
 }
 
-.sidebar li:active {
+.sidebar a:hover {
   color: rgb(0, 0, 0);
-  background-color: rgb(249, 249, 249);
-}
-
-.sidebar a:active {
+  background: rgb(249, 249, 249);
   margin-left: 11px;
 }
 
-
-.main-footer li:active{
+.main-footer a:hover{
   text-decoration: underline;
 }
+
 .navigation {
   background: rgb(87, 86, 86);
   color: rgb(255, 255, 255)
