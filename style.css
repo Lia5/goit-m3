@@ -40,14 +40,27 @@ h1 {
 
 .navigation a {
   color: rgb(255, 255, 255);
+  padding-top: 10px;
+  padding-left: 24px;
+  padding-bottom: 10px;
+  width: 140px;
 }
 
 .sidebar a {
   color: rgb(101, 99, 99);
+  padding-top: 13px;
+  padding-left: 24px;
+  padding-bottom: 10px;
+  width: 216px;
+  min-height: 40;
 }
 
 .main-footer a{
   color: rgb(92, 92, 92);
+  padding-top: 10px;
+  padding-left: 24px;
+  padding-bottom: 10px;
+  width: 140px;
 }
 
 .navigation a:hover {
@@ -57,7 +70,8 @@ h1 {
 .sidebar a:hover {
   color: rgb(0, 0, 0);
   background: rgb(249, 249, 249);
-  margin-left: 11px;
+  padding-left: 35px;
+  width: 203px;
 }
 
 .main-footer a:hover{
@@ -90,10 +104,6 @@ ul {
 
 .navigation li {
   display: inline-block;
-  padding-top: 10px;
-  padding-left: 24px;
-  padding-bottom: 10px;
-  width: 140px;
   border-left: 1px solid rgb(200, 200, 200);
   font-size: 15px;
   font-family: "Myriad Pro", "Arial", sans-serif;
@@ -101,11 +111,6 @@ ul {
 
 
 .sidebar li {
-  padding-top: 13px;
-  padding-left: 24px;
-  padding-bottom: 10px;
-  width: 216px;
-  min-height: 40;
   border: 1px solid rgb(200, 200, 200);
   font-size: 13px;
   font-family: "Myriad Pro", "Arial", sans-serif;
@@ -113,10 +118,6 @@ ul {
 
 .main-footer  li {
   display: inline-block;
-  padding-top: 10px;
-  padding-left: 24px;
-  padding-bottom: 10px;
-  width: 140px;
   border-left: 1px solid rgb(200, 200, 200);
   font-size: 14px;
   font-family: "Myriad Pro", "Arial", sans-serif;
@@ -125,7 +126,7 @@ ul {
   position: absolute;
   top: 10px;
   right: 25px;
-   font-size: 14px;
+  font-size: 14px;
   font-family: "Myriad Pro", "Arial", sans-serif;
 }
 img {
